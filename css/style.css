@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shojumaru&display=swap');
+:root {
+	--color-general: #999;
+	--color-titulos: #29373c;
+	--bg-gris: #f9faf2;
+	--bg-footer: #f49f28;
+}
+
+body {
+	font-family: "Shojumaru", serif;
+	font-weight: 400;
+	color: #fff;
+}
+
+body .links {
+	font-family: 'Nanum Pen Script';
+	font-style: normal;
+}
+
+#inicio a {
+	color: #fff;
+}
+
+#inicio a:hover {
+	color: var(--bg-footer);
+}
+
+#hero {
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#hero h1{
+	font-family: "Shojumaru", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+	color: var(--bg-gris);
+}
+
+#hero h3{
+	font-family: "Nanum Pen Script", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+}
+header{
+    position: absolute;
+	width: 100%;
+	padding-top: 20px;
+}
+
+#hero span {
+	color: var(--bg-footer);
+	text-decoration: underline;
+}
+
+.halloween{
+    text-align: center;
+}
+
+#halloween p {
+	font-family: "Nanum Pen Script", serif;
+    font-size: 20px; 
+}
+
+.icon{
+    width: 100px;
+    height: auto;
+}
+
+.costumer{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#costumer h1 {
+	color: #000;
+}
+
+#costumer p {
+	font-family: "Nanum Pen Script", serif;
+    font-size: 20px; 
+}
+
+.pumpkin{
+    width: 50px;
+    height: auto;
+}
+
+.witch{
+    text-align: center;
+    background: rgb(255,135,0);
+background: linear-gradient(90deg, rgba(255,135,0,1) 6%, rgba(255,179,0,1) 100%);
+}
+
+#witch p{
+	font-family: "Nanum Pen Script", serif;
+    font-size: 20px;
+}
+
+.witch span {
+	text-decoration: underline;
+}
+
+.imgfooter{
+    width: 230px;
+    height: auto;
+}
+.faq{
+    background-color: var(--bg-gris);
+}
+
+#faq p {
+	font-family: "Nanum Pen Script", serif;
+    font-size: 20px; 
+}
+
+.titulo{
+    font-family: "Shojumaru", system-ui;
+    font-size: medium;
+}
+
+.title{
+    font-family: "Nanum Pen Script", serif;
+}
+
+.subtitle{
+    font-family: "Nanum Pen Script", serif;
+    font-size: 30px;   
+	color: #000;
+}
+.parrafo{
+    color: var(--color-general);
+}
+
+#halloween h1, h5 {
+	color: #000;
+}
+
+#faq h1 {
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
